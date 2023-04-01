@@ -6,8 +6,7 @@ name: Lighthouse CI score
 # events but only for the develop branch
 on:
   push:
-    branches:
-      - main
+    branches: [main,lighthouse]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -32,3 +31,12 @@ jobs:
 
       - name: Comparing value of current request with qa and preprod
         run: node compare.js
+      
+      - name: test hello
+        run: node hello.js
+      
+      - name: test abc
+        run: node abc.js
+      
+      - name: test directory
+        run: ls
