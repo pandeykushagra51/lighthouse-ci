@@ -67,6 +67,7 @@ for(let page of pages){
         console.log(`qaScore:${qa[page]}`);
         console.log(`preProdScore:${preProd[page]}`);
         console.log(`localhostScore:${localhost[page]}`);
+        console.log('Lighthouse Validation failed');
         process.exit(1);
     }else{
         console.log(`Lighthouse validation score for page ${page}`);
@@ -76,15 +77,15 @@ for(let page of pages){
     }
 }
 
-let num=Math.ceil(Math.random()*1000);
-console.log(num%2)
+// let num=Math.ceil(Math.random()*1000);
+// console.log(num%2)
 
-if(num%2==1){
-    console.log('Lighthouse Validation Failed ');
-    process.exit(1);
-}else{
-    console.log('Lighthouse Validation Successfull ');
-    process.exit(0);
-}
-
-// process.exit(1);
+// if(num%2==1){
+//     console.log('Lighthouse Validation Failed ');
+//     process.exit(1);
+// }else{
+//     console.log('Lighthouse Validation Successfull ');
+//     process.exit(0);
+// }
+console.log('Lighthouse Validation Successfull ');
+process.exit(0);
