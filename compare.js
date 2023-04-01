@@ -77,6 +77,7 @@ for(let page of pages){
 }
 
 let num=Math.random();;
+console.log(num%2)
 
 if(num%2==1){
     console.log('Lighthouse Validation Failed ');
