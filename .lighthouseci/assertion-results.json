@@ -1,0 +1,44 @@
+[
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0.75,
+    "values": [
+      0.75
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditProperty": "performance",
+    "auditId": "categories",
+    "level": "warn",
+    "url": "https://www.google.com/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0.8,
+    "values": [
+      0.8
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditProperty": "accessibility",
+    "auditId": "categories",
+    "level": "warn",
+    "url": "https://www.google.com/"
+  },
+  {
+    "name": "minScore",
+    "expected": 1,
+    "actual": 0.85,
+    "values": [
+      0.85
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditProperty": "seo",
+    "auditId": "categories",
+    "level": "warn",
+    "url": "https://www.google.com/"
+  }
+]
