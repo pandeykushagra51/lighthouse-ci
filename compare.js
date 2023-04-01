@@ -29,8 +29,7 @@ const localhost = {};
 // }
 
 // let data:PageData;
-
-
+console.log('hello');
 
 for(let x of results){
     // let data = x as any as PageData
