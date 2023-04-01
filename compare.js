@@ -7,7 +7,7 @@ const pages = ['/', '/about-us', '/faq'];
 const hostList = {
     qa:'qa.gripinvest.in',
     preProd:'preprod.gripinvest.in',
-    // localhost:'localhost:3000',
+    localhost:'www.gripinvest.in',
 }
 
 
