@@ -3,9 +3,9 @@ module.exports = {
     ci: {
       collect: {
         // startServerCommand: 'yarn start',
-        url: ['https://www.gripinvest.in/','https://www.gripinvest.in/faq','https://www.gripinvest.in/about-us',
-                'https://preprod.gripinvest.in/','https://preprod.gripinvest.in/faq','https://preprod.gripinvest.in/about-us',
-                'https://qa.gripinvest.in/','https://qa.gripinvest.in/faq','https://qa.gripinvest.in/about-us'
+        url: ['https://www.gripinvest.in/','https://www.gripinvest.in/about-us',
+                'https://airbyte.com/','https://airbyte.com/about-us',
+                'https://bik.ai/','https://bik.ai/about-us',
                 ],
         //  url: ['https://www.google.com'],
         numberOfRuns:1,

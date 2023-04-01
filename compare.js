@@ -3,11 +3,11 @@ const url = require('url');
 
 console.log(results);
 
-const pages = ['/', '/about-us', '/faq'];
+const pages = ['/', '/about-us',];
 const hostList = {
-    qa:'qa.gripinvest.in',
-    preProd:'preprod.gripinvest.in',
-    // localhost:'localhost:3000',
+    qa:'bik.ai',
+    preProd:'airbyte.com',
+    localhost:'gripinvest.in',
 }
 
 
