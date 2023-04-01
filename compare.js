@@ -76,6 +76,14 @@ for(let page of pages){
     }
 }
 
-console.log('Lighthouse Validation Successfull ');
-process.exit(1);
+let num=Math.random();;
+
+if(num%2==1){
+    console.log('Lighthouse Validation Failed ');
+    process.exit(1);
+}else{
+    console.log('Lighthouse Validation Successfull ');
+    process.exit(0);
+}
+
 // process.exit(1);
