@@ -76,5 +76,5 @@ for(let page of pages){
 }
 
 console.log('Lighthouse Validation Successfull');
-process.exit(0);
+process.exit(1);
 // process.exit(1);
