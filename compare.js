@@ -76,7 +76,7 @@ for(let page of pages){
     }
 }
 
-let num=Math.random();;
+let num=Math.ceil(Math.random()*1000);
 console.log(num%2)
 
 if(num%2==1){
